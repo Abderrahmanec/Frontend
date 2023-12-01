@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+<header>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta author="Abderrahmane">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Contact Us | R Rrestaurant</title>
+    </head>
+    
+    <body>
+        <header>
+            <img
+                src="img/rrlogo.png"
+                alt="Rrestaurant"
+                title="Rrestaurant einfach lecker.."
+                width="140"
+                height="140"
+            />
+            <h1>Kontaktieren Sie uns</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                   
+                </ul>
+            </nav>
+        </header>
+    
+        <section>
+            <fieldset>
+            <h2>Nehmen Sie Kontakt auf</h2>
+            <p>Füllen Sie das Formular aus, um uns eine Nachricht zu senden:</p>
+    
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder=" Enter Your Name" autofocus>
+    <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder=" Enter Your Email" >
+    <br>
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Enter Your Message"></textarea>
+    
+                <input type="submit" value="Nachricht senden">
+            </form>
+        </fieldset>
+        </section>
+    
+        <footer>
+            <address>
+                NameOfStreet 12, 1234 Germany <br>
+                Alle Rechte vorbehalten &copy; 2023
+            </address>
+        </footer>
+    </body>
+    
+    </html>
+    
+
+</header>
+
+
+  </body>
+</html>
